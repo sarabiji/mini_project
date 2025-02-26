@@ -14,21 +14,26 @@ class _DashboardWidgetState extends State<DashboardWidget> {
     return MaterialApp(
       home: Scaffold(
           body: SafeArea(
-        child: Column(children: [
-          //heading
-          Text(
-            'This week\'s meals',
-            style: GoogleFonts.montserrat(),
-          ),
-          //subheading
-           Text('Made to order with fresh ingredients each week.',
-          style: GoogleFonts.montserrat(),
-          ),
+        top: true,
+        child: Column(
+            mainAxisSize: MainAxisSize.max,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              //heading
+              Text(
+                'This week\'s meals',
+                style: GoogleFonts.montserrat(),
+              ),
+              //subheading
+              Text(
+                'Made to order with fresh ingredients each week.',
+                style: GoogleFonts.montserrat(),
+              ),
 
-          
-          //tiles
-        ]),
-      )),
+              //tiles
+            ]),
+      ),
+      ),
     );
   }
 }
