@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231582877152",
+    "project_id": "snap-chef-a1b5c",
+    "storage_bucket": "snap-chef-a1b5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231582877152:android:03f72476655ffad0edd785",
+        "android_client_info": {
+          "package_name": "com.example.snap_chef"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAUF_L7CwQx4T4ahP0tcwsdUl8Xeu061E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
