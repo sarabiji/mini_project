@@ -13,27 +13,41 @@ class _DashboardWidgetState extends State<DashboardWidget> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          body: SafeArea(
-        top: true,
-        child: Column(
-            mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              //heading
-              Text(
-                'This week\'s meals',
-                style: GoogleFonts.montserrat(),
-              ),
-              //subheading
-              Text(
-                'Made to order with fresh ingredients each week.',
-                style: GoogleFonts.montserrat(),
-              ),
+        body: SafeArea(
+          top: true,
+          child: Column(
+              mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                //heading
+                Text(
+                  'Recommended for you',
+                  style: GoogleFonts.montserrat(),
+                ),
+                //subheading
+                Text(
+                  'Made to order with fresh ingredients each week.',
+                  style: GoogleFonts.montserrat(),
+                ),
 
-              //tiles
-            ]),
-      ),
+                GridView(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    crossAxisSpacing: 10,
+                    mainAxisSpacing: 10,
+                    childAspectRatio: 0.78,
+                  ),
+                  scrollDirection: Axis.vertical,
+                )
+
+                //tiles
+              ]),
+        ),
+        //below stuff
+        // home search grocery?? profile
       ),
     );
   }
 }
+
+
