@@ -6,4 +6,7 @@ class TText {
   static const String onboardingSubTitle1 = "bdnbkgesj";
   static const String onboardingSubTitle2 = "mcioejfehg";
   static const String onboardingSubTitle3 = "fbeogh";
+
+  static const String homeAppBarTitle = "ajbdkhgbnklrj";
+  static const String homeAppBarSubTitle = "mcioejfehg";
 }

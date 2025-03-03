@@ -14,6 +14,11 @@ dependencies:
   flutter_native_splash: ^2.4.5
   smooth_page_indicator: ^1.0.0
   get: ^4.7.2
+  get_storage: 2.1.1
+  http: ^1.0.1
+  intl: ^0.18.0
+  logger: ^1.0.1
+  url_launcher: 6.3.1
 
 
   
@@ -27,5 +32,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets\images\onboarding_img
-    - assets\logo
+    - assets/images/onboarding_img
+    - assets/logo

@@ -15,6 +15,6 @@ class MaterialApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Onboarding();
+    return const OnboardingScreen();
   }
 }
