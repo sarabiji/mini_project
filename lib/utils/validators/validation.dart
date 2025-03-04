@@ -1,3 +1,5 @@
+// ignore_for_file: valid_regexps
+
 class TValidator {
   static String? validateEmail(String? value) {
     if (value == null || value.isEmpty) {

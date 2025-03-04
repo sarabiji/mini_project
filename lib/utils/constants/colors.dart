@@ -18,7 +18,7 @@ class TColors {
 
   // Background Container colors
   static const Color lightContainer = Color(0xFFF6F6F6);
-  static Color darkContainer = const Color.fromARGB(230, 255, 255, 255);
+  static Color darkContainer = const Color.fromARGB(25, 255, 255, 255);
 
   // Button colors
   static const Color buttonPrimary = Color(0xFF4b68ff);
